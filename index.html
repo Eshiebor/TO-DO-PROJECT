@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    
+     <h1>To-do App</h1>
+     <div class="wrapper">
+        <form action="">
+            <input id="todo-input" type="text" 
+            placeholder="write anything and hit enter to add" autocomplete="off">
+            <button class="add-button">ADD</button>
+        </form>
+        <ul id="todo-list">
+            <li class="todo">
+               <input type="checkbox" id="todo-1"> 
+               <label for="todo-1" class="custom-checkbox">
+                     <svg fill="transparent" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="24" heigth="24"><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>           
+               </label>
+               <label for="todo-1" class="todo-text">
+                   Buy Milk
+               </label>
+               <button class="delete-button">
+               <svg fill="var(--secondary-color)" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+               <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5M8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5m3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0"/>
+               </svg>
+               </button>
+            </li>  
+            
+            <li class="todo">
+               <input type="checkbox" id="todo-2"> 
+               <label for="todo-2" class="custom-checkbox">
+                     <svg fill="transparent" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="24" heigth="24"><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>           
+               </label>
+               <label for="todo-2" class="todo-text">
+                   Call Emma
+               </label>
+               <button class="delete-button">
+                 <svg fill="var(--secondary-color)" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+                 <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5M8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5m3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0"/>
+                 </svg>
+               </button>
+            </li>  
+
+            
+            <li class="todo">
+               <input type="checkbox" id="todo-3"> 
+               <label for="todo-3" class="custom-checkbox">
+                     <svg fill="transparent" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="24" heigth="24"><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>           
+               </label>
+               <label for="todo-3" class="todo-text">
+                  Destroy The World
+               </label>
+               <button class="delete-button">
+               <svg fill="var(--secondary-color)" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+               <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5M8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5m3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0"/>
+               </svg>
+            </li>  
+
+
+        </ul>
+     </div>
+</body>
+</html>
